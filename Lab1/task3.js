@@ -10,18 +10,18 @@ let types1 = {
     boolean: 0,
 };
 
-for(let item of arr) {
+for (let item of arr) {
     let itemType = typeof item;
 
-    if(itemType === "number") {
+    if (itemType === "number") {
         types1.number += 1;
     }
 
-    if(itemType === "string") {
+    if (itemType === "string") {
         types1.string += 1;
     }
 
-    if(itemType === "boolean") {
+    if (itemType === "boolean") {
         types1.boolean += 1;
     }
 }
