@@ -6,13 +6,12 @@ const arr = [1943, "Batman", true, "Dark Knight Trilogy", false, 2005, 2008, 201
 // Другий спосіб, де в об'єкт-колекцію types2 ключі додаються динамічно
 let types2 = {};
 
-for(let item of arr) {
+for (let item of arr) {
     let itemType = typeof item;
 
-    if(types2[itemType] === undefined) {
+    if (types2[itemType] === undefined) {
         types2[itemType] = 1;
-    }
-    else {
+    } else {
         types2[itemType] += 1;
     }
 }
