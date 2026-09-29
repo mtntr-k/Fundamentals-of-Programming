@@ -5,17 +5,17 @@
 const average = (a, b) => {
     return (a + b) / 2;
 }
-console.log(average(34, 86));
+console.log(average(34, 86)); // 60
 
 // 2. Квадрат
 const square = (x) => x * x;
-console.log(square(9));
+console.log(square(9)); // 81
 
 // 3. Куб
 function cube(y) {
     return y * y * y;
 }
-console.log(cube(6));
+console.log(cube(6)); // 216
 
 // 4. Цикл
 function calculate() {
@@ -27,4 +27,4 @@ function calculate() {
     console.log(res);
 }
 
-calculate();
+calculate(); // [0, 1, 6, 18, 40, 75, 126, 196, 288, 405]
