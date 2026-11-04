@@ -3,3 +3,4 @@
 * ### [Лабораторна робота №2: Basics and Reusable Abstractions](https://github.com/mtntr-k/Fundamentals-of-Programming/tree/main/Lab2) ;
 * ### [Лабораторна робота №3: Функції](https://github.com/mtntr-k/Fundamentals-of-Programming/tree/main/Lab3) ;
 * ### [Лабораторна робота №4: Iteration](https://github.com/mtntr-k/Fundamentals-of-Programming/tree/main/Lab4) ;
+* ### [Лабораторна робота №5: Замикання](https://github.com/mtntr-k/Fundamentals-of-Programming/tree/main/Lab5) ;
