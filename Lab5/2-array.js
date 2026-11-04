@@ -1,0 +1,35 @@
+"use strict";
+
+function array() {
+    const elements = [];
+
+    const fn = function(i) {
+        return elements[i];
+    }
+
+    fn.push = function(value) {
+        return elements.push(value);
+    }
+
+    fn.pop = function() {
+        return elements.pop();
+    }
+
+    return fn;
+}
+
+const arr = array();
+
+arr.push('first');
+arr.push('second');
+arr.push('third');
+
+console.log(arr(0)); // first
+console.log(arr(1)); // second
+console.log(arr(2)); // third
+
+console.log(arr.pop()); // third
+console.log(arr.pop()); // second
+console.log(arr.pop()); // first
+
+console.log(arr.pop()); // undefined
