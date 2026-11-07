@@ -1,9 +1,6 @@
-// Ітерування функцій
-
 type SeqFunc = (x: number) => number;
 
 export function seq(...args: (SeqFunc | number)[]): any {
-    // Вказуємо, що масив містить лише функції типу SeqFn
     const funcs: SeqFunc[] = [];
 
     function chain(...args: (SeqFunc | number)[]): any {
