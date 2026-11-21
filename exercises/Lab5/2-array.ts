@@ -4,11 +4,12 @@ export function array() {
     const fn = function(i: number) {
         return elements[i];
     }
+  
+    fn.push = (value: string) => elements.push(value);
+    fn.pop =  () => elements.pop();
 
-    return Object.assign(fn, {
-        push: (value: string) => elements.push(value),
-        pop: () => elements.pop()
-    });
+    return fn;
+    
 }
 
 const arr = array();
