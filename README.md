@@ -5,7 +5,7 @@
 * ### [Лабораторна робота №3: Функції](exercises-on-js/Lab3) ;
 * ### [Лабораторна робота №4: Iteration](exercises-on-js/Lab4) ;
 * ### [Лабораторна робота №5: Closures and chaining](exercises-on-js/Lab5) ;
-## Лабораторних робіт на TS *(4-..)*:
+## Лабораторних робіт на TS *(4-8)*:
 * ### [Лабораторна робота №4: Iteration](exercises/Lab4) ;
 * ### [Лабораторна робота №5: Closures and chaining](exercises/Lab5) ;
 * ### [Лабораторна робота №6: Композиція функцій](exercises/Lab6) ;
