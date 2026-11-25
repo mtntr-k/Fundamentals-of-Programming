@@ -9,3 +9,4 @@
 * ### [Лабораторна робота №4: Iteration](exercises/Lab4) ;
 * ### [Лабораторна робота №5: Closures and chaining](exercises/Lab5) ;
 * ### [Лабораторна робота №6: Композиція функцій](exercises/Lab6) ;
+* ### [Лабораторна робота №7: Arrays](exercises/Lab7) ;
