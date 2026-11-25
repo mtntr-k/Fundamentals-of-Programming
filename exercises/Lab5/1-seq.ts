@@ -1,3 +1,5 @@
+// Функція, яка викликається за ланцюгом з довільною кількістю функції та аргументом в кінці
+
 type SeqFunc = (x: number) => number;
 
 export function seq(...args: (SeqFunc | number)[]): any {
