@@ -1,10 +1,10 @@
 // Функція, яка ітерує всі ключі переданого об'єкта, викликаючи для кожного колбек з наступним контрактом
 
-const iterate = (obj: Record<string, unknown>, callback: (key: string, value: unknown, obj: Record<string, unknown>) => void) => {
+const iterate = (obj: Record<string, unknown>, callback: (key: string, value: unknown) => void) => {
     const keys = Object.keys(obj);
 
     for (const key of keys) {
-        callback(key, obj[key], obj);
+        callback(key, obj[key]);
     }
 }
 

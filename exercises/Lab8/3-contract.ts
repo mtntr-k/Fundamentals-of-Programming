@@ -10,12 +10,11 @@ const contract = (fn: any, ...types: any[]) => (...args: unknown[]) => {
         }
     }
     
-    const res = fn(...args);
-    if (typeof res !== returnType.name.toLowerCase()) {
+    if (typeof fn(...args) !== returnType.name.toLowerCase()) {
         throw new TypeError(`Result must be ${returnType.name}`);
     }
 
-    return res;
+    return fn(...args);
 } 
 
 const add = (a: number, b: number) => a + b;
